@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:hapticFeedbackEnabled="true"
+              android:layout_margin="2dip"
+              android:background="@drawable/myshape" >
+
+    <TextView
+            android:id="@+id/update"
+            style="@android:style/TextAppearance.DeviceDefault.SearchResult.Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center_horizontal|center_vertical"
+            android:layout_margin="2dip"
+            android:text="BTC: " >
+    </TextView>
+
+</LinearLayout>
